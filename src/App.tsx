@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import type { DiagnosticAnswers } from './types'
 import { AuthProvider, useAuth } from './context/AuthContext'
+import { GuestProvider, useGuest } from './context/GuestContext'
 import { supabase } from './lib/supabaseClient'
 import { LoginPage } from './pages/LoginPage'
 import { DiagnosticPage } from './pages/DiagnosticPage'
@@ -18,15 +19,16 @@ function Spinner() {
   )
 }
 
-function RequireAuth({ children, diagnostic }: { children: React.ReactNode; diagnostic: DiagnosticAnswers | null }) {
+function RequireAuth({ children }: { children: React.ReactNode; diagnostic: DiagnosticAnswers | null }) {
   const { user } = useAuth()
-  if (!user) return <Navigate to="/login" replace />
-  if (!diagnostic) return <Navigate to="/diagnostic" replace />
+  const { guestMode } = useGuest()
+  if (!user && !guestMode) return <Navigate to="/login" replace />
   return <>{children}</>
 }
 
 function AppRoutes() {
   const { user, loading } = useAuth()
+  const { guestMode } = useGuest()
   const [diagnostic, setDiagnostic] = useState<DiagnosticAnswers | null>(null)
   const [diagInit, setDiagInit] = useState(false)
 
@@ -37,7 +39,8 @@ function AppRoutes() {
     }
   }, [loading, user?.id])
 
-  if (loading || !diagInit) return <Spinner />
+  // For guests, skip the diagInit wait
+  if (loading || (!diagInit && !guestMode)) return <Spinner />
 
   async function handleDiagnosticComplete(answers: DiagnosticAnswers) {
     setDiagnostic(answers)
@@ -56,7 +59,7 @@ function AppRoutes() {
       <Route
         path="/diagnostic"
         element={
-          !user ? <Navigate to="/login" replace /> :
+          !user && !guestMode ? <Navigate to="/login" replace /> :
           diagnostic ? <Navigate to="/mentors" replace /> :
           <DiagnosticPage onComplete={handleDiagnosticComplete} />
         }
@@ -80,15 +83,17 @@ export default function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <Toaster
-          position="top-center"
-          toastOptions={{
-            style: { background: '#1a1a2e', color: '#fff', border: '1px solid #2a2a4a', borderRadius: '12px' },
-            error: { style: { borderColor: '#ef4444' } },
-            success: { style: { borderColor: '#10b981' } },
-          }}
-        />
-        <AppRoutes />
+        <GuestProvider>
+          <Toaster
+            position="top-center"
+            toastOptions={{
+              style: { background: '#1a1a2e', color: '#fff', border: '1px solid #2a2a4a', borderRadius: '12px' },
+              error: { style: { borderColor: '#ef4444' } },
+              success: { style: { borderColor: '#10b981' } },
+            }}
+          />
+          <AppRoutes />
+        </GuestProvider>
       </AuthProvider>
     </BrowserRouter>
   )

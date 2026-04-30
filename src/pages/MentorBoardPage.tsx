@@ -70,7 +70,7 @@ export function MentorBoardPage({ diagnostic, onRetakeDiagnostic }: Props) {
       {/* Sticky header — solo search + filtros */}
       <div
         className="sticky top-0 z-40 border-b border-white/[0.06] px-4 sm:px-6 py-3"
-        style={{ background: 'rgba(6,10,36,0.78)', backdropFilter: 'blur(24px)', WebkitBackdropFilter: 'blur(24px)' }}
+        style={{ background: 'rgba(4,7,28,0.82)', backdropFilter: 'blur(24px)', WebkitBackdropFilter: 'blur(24px)' }}
       >
         <div className="max-w-[1800px] mx-auto flex flex-col gap-2.5">
           {/* Search + user */}

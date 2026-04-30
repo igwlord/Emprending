@@ -6,9 +6,13 @@
 }
 
 body {
-  background: linear-gradient(rgba(4,6,24,0.55), rgba(4,6,24,0.55)),
-              url('/wallpaper.png') center/cover fixed no-repeat;
-  background-color: #030308;
+  background:
+    radial-gradient(ellipse at 15% 40%, rgba(49, 20, 120, 0.45) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 10%, rgba(20, 40, 130, 0.40) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 85%, rgba(30, 10, 90, 0.35) 0%, transparent 50%),
+    linear-gradient(155deg, #04061a 0%, #080d2e 35%, #0c1440 60%, #07091f 100%);
+  background-attachment: fixed;
+  background-color: #04061a;
   color: #f0f0f8;
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;

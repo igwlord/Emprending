@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import { useGuest } from '../context/GuestContext'
 
 function GoogleIcon() {
   return (
@@ -15,79 +16,85 @@ function GoogleIcon() {
 
 export function LoginPage() {
   const { user, loading, signInWithGoogle } = useAuth()
+  const { enableGuestMode } = useGuest()
   const navigate = useNavigate()
 
   useEffect(() => {
     if (!loading && user) navigate('/mentors', { replace: true })
   }, [user, loading, navigate])
 
+  function handleGuest() {
+    enableGuestMode()
+    navigate('/diagnostic', { replace: true })
+  }
+
   return (
     <div
       className="min-h-dvh flex flex-col items-center justify-center px-5"
       style={{ background: 'rgba(3,3,8,0.38)' }}
     >
-      <div className="w-full max-w-xs flex flex-col items-center gap-8">
+      <div className="w-full max-w-xs flex flex-col items-center gap-7">
 
-        {/* Logo — letra E sin fondo */}
-        <div
-          className="w-24 h-24 rounded-3xl flex items-center justify-center font-black"
-          style={{
-            background: 'linear-gradient(135deg, #f97316, #ea580c)',
-            boxShadow: '0 0 48px rgba(249,115,22,0.45)',
-            fontFamily: 'Outfit, sans-serif',
-            fontSize: '3rem',
-            color: '#fff',
-          }}
-        >
-          E.
+        {/* Título */}
+        <div className="text-center">
+          <h1
+            className="font-black text-white leading-tight"
+            style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.9rem' }}
+          >
+            Seguimiento de Tutorías
+          </h1>
+          <p className="text-white/45 text-sm mt-2 leading-relaxed">
+            Registrá notas, experiencias y avances<br />de cada encuentro en un solo lugar.
+          </p>
         </div>
 
-        {/* Title — una sola línea */}
-        <h1
-          className="text-center font-black text-white leading-tight"
-          style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.65rem' }}
-        >
-          Bienvenidos a{' '}
-          <span
-            style={{
-              background: 'linear-gradient(135deg, #f97316, #ea580c)',
-              WebkitBackgroundClip: 'text',
-              backgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              color: 'transparent',
-            }}
-          >
-            Emprending.Hub
-          </span>
-        </h1>
-
-        {/* Card */}
+        {/* Modal / card */}
         <div
-          className="w-full rounded-[24px] p-6 flex flex-col gap-4"
+          className="w-full rounded-[24px] p-6 flex flex-col gap-3"
           style={{
-            background: 'rgba(6,10,38,0.65)',
+            background: 'rgba(6,10,38,0.72)',
             backdropFilter: 'blur(24px)',
             WebkitBackdropFilter: 'blur(24px)',
             border: '1px solid rgba(255,255,255,0.10)',
           }}
         >
+          {/* Google */}
           <button
             onClick={signInWithGoogle}
             disabled={loading}
             className="w-full flex items-center justify-center gap-3 py-3.5 rounded-2xl font-semibold text-[#1a1a1a] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-60"
-            style={{
-              background: '#ffffff',
-              boxShadow: '0 2px 16px rgba(0,0,0,0.35)',
-            }}
+            style={{ background: '#ffffff', boxShadow: '0 2px 16px rgba(0,0,0,0.35)' }}
           >
             <GoogleIcon />
             Continuar con Google
           </button>
 
-          <p className="text-white/25 text-xs text-center leading-relaxed">
-            Al continuar aceptás que tus datos se almacenen de forma segura en la Nube.
-          </p>
+          {/* Divider */}
+          <div className="flex items-center gap-3">
+            <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
+            <span className="text-white/25 text-xs">o</span>
+            <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
+          </div>
+
+          {/* Invitado */}
+          <button
+            onClick={handleGuest}
+            className="w-full flex flex-col items-center gap-1 py-3 rounded-2xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            style={{
+              background: 'rgba(255,255,255,0.05)',
+              border: '1px solid rgba(255,255,255,0.10)',
+            }}
+          >
+            <span className="text-white/80 font-semibold text-sm">Entrar como invitado</span>
+            <span className="text-white/30 text-xs">Las notas y contactos no se guardan en la nube</span>
+          </button>
         </div>
+
+        {/* Aviso legal */}
+        <p className="text-white/20 text-xs text-center leading-relaxed px-2">
+          Esta plataforma no representa un canal oficial de Emprending. Su uso está destinado únicamente al seguimiento interno de tutorías, mentorías, notas y avances.
+        </p>
+
       </div>
     </div>
   )
