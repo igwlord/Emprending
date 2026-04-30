@@ -1,0 +1,12 @@
+{
+  "name": "Emprending Hub",
+  "short_name": "Emprending",
+  "description": "Tu red de mentores del programa Emprending",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030308",
+  "theme_color": "#f97316",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

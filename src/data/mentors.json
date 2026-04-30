@@ -1,0 +1,612 @@
+[
+  {
+    "id": 1,
+    "name": "Nicolas Minuchin",
+    "role_company": "Fundador CLOUT Studio",
+    "bio": "Ingeniero Industrial (UBA) y MBA de Stanford, con una trayectoria que cruza el emprendimiento serial con la consultoría comercial B2B. Fundó CLOUT Studio en 2005, una agencia de marketing visual especializada en real estate y arquitectura que opera desde Washington D.C. También es uno de los fundadores de EmprendING.",
+    "specialty_tags": ["Ventas B2B", "Marketing", "Estrategia comercial", "Emprendimiento", "Prospección"],
+    "linkedin_url": "https://www.linkedin.com/in/nicolas-minuchin-349166/",
+    "photo_url": "/mentor-photos/2.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 2,
+    "name": "Pablo Altamira",
+    "role_company": "Co-fundador y CRO de Producteca",
+    "bio": "Co-fundador y CRO de Producteca, SaaS que permite a marcas y sellers gestionar sus operaciones en múltiples marketplaces de forma integrada (Argentina, México, Colombia, Chile, Uruguay y Perú). Ingeniero Industrial (UBA). Fundador de EmprendING.",
+    "specialty_tags": ["E-commerce", "Marketplaces", "Estrategia comercial", "Crecimiento B2B en SaaS", "Expansión internacional"],
+    "linkedin_url": "https://www.linkedin.com/in/pabloaltamira/",
+    "photo_url": "/mentor-photos/3.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 3,
+    "name": "Gabi Fernandez",
+    "role_company": "CGO Pulpos",
+    "bio": "Ingeniero industrial (UBA) con MBA (IAE). Pasé 8 años en Mercado Pago liderando producto y growth para la red de vendedores en LATAM. Desde 2024 soy CGO de Pulpos, SaaS de gestión para comercios independientes. Crecimos 300%, superamos 5.000 clientes y cerramos rondas por USD 9M con Andreessen Horowitz.",
+    "specialty_tags": ["Estrategia de crecimiento", "Desarrollo de Productos", "Métricas", "Go-to-Market", "SaaS"],
+    "linkedin_url": "https://www.linkedin.com/in/gabriel-alejandro-fern%C3%A1ndez-1b77428b/",
+    "photo_url": "/mentor-photos/4.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 4,
+    "name": "Juani Chereminiano",
+    "role_company": "Fundador Temple Group / Bosque Gin",
+    "bio": "Emprendedor serial. Fundó Temple Group, hoy cadena de más de 40 locales con cerveza artesanal propia y presencia en Argentina, USA y Uruguay. Cofundó Bosque Gin, elegido el mejor gin contemporáneo del mundo (World Gin Awards 2022), exporta a más de 12 países.",
+    "specialty_tags": ["Marcas premium", "Socios", "Gastronomía", "Exportación", "Retail", "Escalado de empresas"],
+    "linkedin_url": "https://www.linkedin.com/in/juan-augusto-chereminiano-827B6221/",
+    "photo_url": "/mentor-photos/5.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 5,
+    "name": "Santiago Magnin",
+    "role_company": "Fundador Deinmobiliarios",
+    "bio": "Fundador de deinmobiliarios, la primera red 100% 'bandera blanca' de LATAM. Más de 170 inmobiliarios asociados, 2da red más grande de CABA. YouTuber de real estate #1 en español. Autor de 'La Inmobiliaria Inteligente'.",
+    "specialty_tags": ["Modelos de negocio", "Marketing", "Personal branding", "Contenido digital", "Finanzas", "Inmobiliario"],
+    "linkedin_url": "https://ar.linkedin.com/in/santivende",
+    "photo_url": "/mentor-photos/6.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 6,
+    "name": "Victoria Pietroboni",
+    "role_company": "Controller Grupo Pietroboni",
+    "bio": "Fui 6 años Co-CEO del Grupo Pietroboni, ejecución de grandes obras de infraestructura, pasando luego a ser Controller del grupo de empresas. Especializada en Finanzas y control de gestión.",
+    "specialty_tags": ["Finanzas", "Costos", "Procesos", "Gestión de equipos", "Socios", "Control de Gestión", "Empresas familiares"],
+    "linkedin_url": "https://www.linkedin.com/in/vicky-pietroboni-ab755ba",
+    "photo_url": "/mentor-photos/7.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 7,
+    "name": "Juan Villarejo",
+    "role_company": "Fundador de software",
+    "bio": "Armé 2 empresas de software, vendí una. Especializado en propuesta de valor, desarrollo de productos y negocios B2B.",
+    "specialty_tags": ["Propuesta de Valor", "Desarrollo de Productos", "Desarrollo de Software", "Negocios B2B", "Tecnología"],
+    "linkedin_url": "",
+    "photo_url": "/mentor-photos/8.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 8,
+    "name": "Diego Richmond",
+    "role_company": "Emprendedor industrial",
+    "bio": "Ingeniero mecánico y emprendedor industrial desde hace más de 15 años. Compré un taller metalúrgico y lo convertí en una empresa de equipamiento médico.",
+    "specialty_tags": ["Estrategia comercial", "Escalar empresa", "Ventas B2B", "Diferenciación"],
+    "linkedin_url": "https://www.linkedin.com/in/diego-richmond/",
+    "photo_url": "/mentor-photos/9.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 9,
+    "name": "Kike del Rio",
+    "role_company": "Socio Nifty",
+    "bio": "Emprendedor desde hace 16 años, 12 años como Tutor de EmprendING. Me dedico a comprar, escalar y vender empresas de la economía real. Socio fundador de Gako Sushi, Lecop Central y Nifty (salones de belleza).",
+    "specialty_tags": ["Franquicias", "Socios", "Venta de empresas", "Gastronomía", "Retail", "Servicios"],
+    "linkedin_url": "https://www.linkedin.com/in/kikedelrio/",
+    "photo_url": "/mentor-photos/10.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 10,
+    "name": "Carlos Kaplan",
+    "role_company": "Abogado internacional",
+    "bio": "Abogado internacional especializado en empresas tecnológicas que operan entre EE. UU. y Latinoamérica. Experiencia en derecho corporativo, tributario y de propiedad intelectual.",
+    "specialty_tags": ["Legales", "Socios", "Conseguir inversión", "Derecho corporativo", "Tributario"],
+    "linkedin_url": "https://www.linkedin.com/in/carloskaplan/",
+    "photo_url": "/mentor-photos/11.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 11,
+    "name": "Nicolas Siafas",
+    "role_company": "Advisor / Inversor ángel",
+    "bio": "Emprendedor serial con experiencia en software B2B/B2G, eventos deportivos, flipping inmobiliario. Soy advisor en 3 startups, inversor ángel y co-administrador de un fondo de fondos de venture capital.",
+    "specialty_tags": ["Finanzas", "Costos", "Propuesta de Valor", "Negocios B2B", "Ventas B2B", "Conseguir inversión", "Negociación"],
+    "linkedin_url": "https://www.linkedin.com/in/nicolas-siafas/",
+    "photo_url": "/mentor-photos/12.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 12,
+    "name": "Hernán Rossi",
+    "role_company": "Socio Color Sublime",
+    "bio": "Emprendedor serial y viajero, tuve 4 empresas, vendí una. Hoy socio de Color Sublime, armando un Holding con presencia en 3 países.",
+    "specialty_tags": ["E-commerce", "Marketplaces", "Ventas B2C", "Importación", "Mercado Libre"],
+    "linkedin_url": "",
+    "photo_url": "/mentor-photos/13.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 13,
+    "name": "Agus Irureta",
+    "role_company": "Fundadora Cuña",
+    "bio": "Ingeniera industrial. Fundé Cuña: regalos corporativos sustentables creando oportunidades laborales para mujeres. Me divierte ayudar con procesos, estrategias comerciales y propuesta de valor.",
+    "specialty_tags": ["Propuesta de Valor", "Desarrollo de Productos", "Productos físicos", "Negocios B2B", "Ventas B2B", "Procesos", "Triple impacto"],
+    "linkedin_url": "https://www.linkedin.com/in/agusirureta/",
+    "photo_url": "/mentor-photos/14.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 14,
+    "name": "Agostina Trovato",
+    "role_company": "Fundadora Get Wild",
+    "bio": "Emprendí en 2016 para crear Get Wild! Una marca de ropa de bambú con tres locales y tienda online. Especialista en Sostenibilidad y modelos de negocio de impacto.",
+    "specialty_tags": ["Modelos de negocio", "Escalar empresa", "Procesos", "Validación de ideas", "Triple impacto"],
+    "linkedin_url": "https://www.linkedin.com/in/agostinatrovato/",
+    "photo_url": "/mentor-photos/15.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 15,
+    "name": "Kevin Scheel",
+    "role_company": "Co-fundador Salpa",
+    "bio": "Co fundador Salpa, fabricamos y vendemos al por mayor indumentaria deportiva.",
+    "specialty_tags": ["Propuesta de Valor", "Negocios B2B", "Ventas B2B", "Socios", "Productos físicos"],
+    "linkedin_url": "https://www.linkedin.com/in/kevin-scheel-25669740/",
+    "photo_url": "/mentor-photos/16.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 16,
+    "name": "Bruno Gielczynsky",
+    "role_company": "Emprendedor digital / Doble impacto",
+    "bio": "Emprendedor digital con más de 15 años creando y escalando nuevos negocios. Especializado en proyectos de doble impacto en Argentina, México y Brasil en industrias como empleo, salud y vivienda.",
+    "specialty_tags": ["Propuesta de Valor", "Validación de ideas", "Diseño empático", "Metodologías de producto", "Triple impacto", "LATAM"],
+    "linkedin_url": "https://www.linkedin.com/in/brunogiel",
+    "photo_url": "/mentor-photos/17.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 17,
+    "name": "Andres Bruzzoni",
+    "role_company": "Fundador Primera Reunión / Samu.ai",
+    "bio": "Emprendedor y referente de ventas B2B en LATAM. Fundó Primera Reunión (+5.000 profesionales) y Samu.ai, plataforma de IA que analiza conversaciones de ventas para cerrar más y mejor.",
+    "specialty_tags": ["Ventas B2B", "Prospección outbound", "Gestión de equipos SDR", "Estrategia comercial", "AI / Automatización"],
+    "linkedin_url": "https://www.linkedin.com/in/andresbruzzoni/",
+    "photo_url": "/mentor-photos/18.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 18,
+    "name": "Lourdes Fuhr",
+    "role_company": "Co-fundadora CICLO",
+    "bio": "Cofundé CICLO, una marca de diseño especializada en vajilla de gres. Trabajo en desarrollo de producto, producción artesanal a escala y estrategia de marca para productos físicos.",
+    "specialty_tags": ["Productos físicos", "Procesos de fabricación", "Optimización de producción", "Branding", "Fotografía"],
+    "linkedin_url": "https://www.linkedin.com/in/lourdes-fuhr-049a285a/",
+    "photo_url": "/mentor-photos/19.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 19,
+    "name": "Juan Wilson",
+    "role_company": "Fundador CICLO cerámica",
+    "bio": "Hace 5 años tengo CICLO, diseñamos, fabricamos y vendemos objetos de cerámica principalmente para el sector gastronómico.",
+    "specialty_tags": ["Propuesta de Valor", "Productos físicos", "Estrategia", "Gastronomía"],
+    "linkedin_url": "https://www.linkedin.com/in/juan-wilson-115ab613a/",
+    "photo_url": "/mentor-photos/20.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 20,
+    "name": "Agus Ribot",
+    "role_company": "Directora Agencia de comunicación digital",
+    "bio": "Lideré una agencia de comunicación digital con más de 30 clientes y un equipo de 8 personas. Acompañamos empresas en comunicación digital y estrategias de marketing.",
+    "specialty_tags": ["Marketing", "Redes Sociales", "Branding", "Contenido digital", "Comunicación digital"],
+    "linkedin_url": "https://www.linkedin.com/in/agustina-ribot-35a3591b/",
+    "photo_url": "/mentor-photos/21.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 21,
+    "name": "Luciano Callegari",
+    "role_company": "Ingeniero Industrial / Impresión 3D",
+    "bio": "Ingeniero Industrial, me dedico a la impresión 3D porque me encanta prototipar cosas.",
+    "specialty_tags": ["Costos", "Propuesta de Valor", "Desarrollo de Productos", "Productos físicos", "Prototipado"],
+    "linkedin_url": "https://www.linkedin.com/in/luciano-callegari/",
+    "photo_url": "/mentor-photos/22.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 22,
+    "name": "Juliana Marino",
+    "role_company": "Consultora estratégica internacional",
+    "bio": "Trabajo en la intersección entre cultura, negocios y proyección internacional. Acompañé empresas en bienestar, educación y servicios durante más de quince años. Hoy dirijo proyectos de posicionamiento cultural con foco en el mercado internacional.",
+    "specialty_tags": ["Posicionamiento estratégico", "Branding", "Negocios B2B", "Expansión internacional", "Gestión de equipos"],
+    "linkedin_url": "https://www.linkedin.com/in/juliana-marino-3b00b2221/",
+    "photo_url": "/mentor-photos/23.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 23,
+    "name": "Carlos Moran",
+    "role_company": "Fundador Pirulo",
+    "bio": "Hace 10 años tengo Pirulo, un negocio de cartas coleccionables. Aprendí el valor de pivotear, adaptarse y ajustar el negocio al mercado. Experiencia en ventas, eventos, marketing, branding e importación desde China.",
+    "specialty_tags": ["Procesos", "Gestión de eventos", "Adaptación al mercado", "Socios", "Resolución de problemas operativos"],
+    "linkedin_url": "",
+    "photo_url": "/mentor-photos/24.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 24,
+    "name": "Ezequiel Mirmulstein",
+    "role_company": "Director de Producto / Coach",
+    "bio": "Director de Producto y Coach. Mentoreo startups y tengo una consultora que ayuda a escalar productos y la transformación digital de empresas.",
+    "specialty_tags": ["Finanzas", "Propuesta de Valor", "Desarrollo de Productos", "Tecnología", "Transformación digital"],
+    "linkedin_url": "https://www.linkedin.com/in/ezequiel-mirmulstein/",
+    "photo_url": "/mentor-photos/25.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 25,
+    "name": "Maira Fabro",
+    "role_company": "Diseñadora gráfica / Consultora de marca",
+    "bio": "Diseñadora gráfica con más de 19 años de experiencia en comunicación, marketing y publicidad. Especializada en estrategia 360°, desarrollo de marcas y posicionamiento.",
+    "specialty_tags": ["Marketing", "Branding", "Redes Sociales", "Propuesta de valor", "Comunicación digital"],
+    "linkedin_url": "https://www.linkedin.com/in/mairafabro/",
+    "photo_url": "/mentor-photos/26.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 26,
+    "name": "Franco Castelo",
+    "role_company": "Director Lader / Socio Psisolamato",
+    "bio": "Director en Lader, agencia de marketing digital enfocada en Real Estate y academia online. Profesor de Publicidad en Posgrado Marketing UBA. Socio en múltiples emprendimientos.",
+    "specialty_tags": ["Marketing Digital", "Google Ads", "Meta Ads", "Ventas B2B", "Desarrollo web"],
+    "linkedin_url": "https://www.linkedin.com/in/francocastelo/",
+    "photo_url": "/mentor-photos/27.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 27,
+    "name": "Agustina Herrero",
+    "role_company": "Fundadora Patcheame",
+    "bio": "Emprendedora textil desde los 17 años, fanática de las telas y fundadora de Patcheame.",
+    "specialty_tags": ["Propuesta de Valor", "Desarrollo de Productos", "Productos físicos", "Negocios B2B", "Conseguir inversión"],
+    "linkedin_url": "https://www.linkedin.com/in/agustina-herrero/",
+    "photo_url": "/mentor-photos/28.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 28,
+    "name": "Matias Jablonski",
+    "role_company": "Emprendedor / Top seller Mercado Libre",
+    "bio": "Arquitecto reconvertido en emprendedor. Lidero mi ecommerce de artículos de oficina y merch sustentables. Entre los 10 mayores vendedores en 3 categorías distintas de Mercado Libre.",
+    "specialty_tags": ["Toma de decisiones", "Propuesta de valor", "E-commerce", "Marketplaces", "Mercado Libre"],
+    "linkedin_url": "https://www.linkedin.com/in/matias-jab98/",
+    "photo_url": "/mentor-photos/29.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 29,
+    "name": "Victoria Migdalek",
+    "role_company": "Fundadora Mesa 8",
+    "bio": "Hace +6 años en performance digital. Fundé Mesa 8, agencia que combina servicios de pauta, email marketing y estrategia digital para escalar negocios.",
+    "specialty_tags": ["Marketing Digital", "E-commerce", "Generación de leads", "Email Marketing", "Meta Ads", "Tasa de conversión"],
+    "linkedin_url": "https://www.linkedin.com/in/victoria-migdalek/",
+    "photo_url": "/mentor-photos/30.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 30,
+    "name": "Agustín Alonso",
+    "role_company": "Actuario / Inmobiliario",
+    "bio": "Actuario en economía de la UBA. Fanático de los números y la organización administrativa.",
+    "specialty_tags": ["Finanzas", "Costos", "Socios", "Conseguir inversión", "Inmobiliario", "Gastronomía"],
+    "linkedin_url": "https://www.linkedin.com/in/aguzalonso/",
+    "photo_url": "/mentor-photos/31.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 31,
+    "name": "Emiliano Lopez",
+    "role_company": "Fundador Cápsula",
+    "bio": "Ingeniero Industrial con 16 años de experiencia en producción, logística, abastecimiento y costos. Fundé Cápsula para ayudar a PyMEs a ordenar sus procesos y mejorar su operación.",
+    "specialty_tags": ["Procesos", "Mejora operativa", "Gestión de equipos", "Costos", "Herramientas digitales"],
+    "linkedin_url": "https://www.linkedin.com/in/elopezing",
+    "photo_url": "/mentor-photos/32.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 32,
+    "name": "Juan Bautista Nogal",
+    "role_company": "Fundador software / Real Estate",
+    "bio": "Ingeniero Industrial con 15 años en desarrollo de software. Fundé una software factory hace 7 años. Actualmente desarrollando una app para desarrollistas inmobiliarios.",
+    "specialty_tags": ["Costos", "Negocios B2B", "Tecnología", "Desarrollo de Software", "MVPs", "Inmobiliario"],
+    "linkedin_url": "https://www.linkedin.com/in/juan-bautista-nogal/",
+    "photo_url": "/mentor-photos/33.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 33,
+    "name": "Tomi Bustamante",
+    "role_company": "Co-Founder VVS Videos",
+    "bio": "Admin (UBA). Co-Founder VVS Videos. Desde 2022 ayudamos a empresas de más de 25 países a vender por YouTube mediante post-producción y desarrollo de estrategias.",
+    "specialty_tags": ["Planes de Negocio", "Costos", "Propuesta de Valor", "Desarrollo de Productos", "Finanzas", "Análisis de datos"],
+    "linkedin_url": "https://www.linkedin.com/in/tomas-bustamante/",
+    "photo_url": "/mentor-photos/34.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 34,
+    "name": "Ezequiel Horowitz",
+    "role_company": "Ingeniero en sistemas",
+    "bio": "Ingeniero en sistemas apasionado por encontrar soluciones a problemas complejos. Desarrollo MVPs rápidamente y pruebo ideas en la vida real. Metodologías ágiles y optimización de procesos.",
+    "specialty_tags": ["Finanzas", "Costos", "Propuesta de Valor", "Desarrollo de Productos", "Desarrollo de Software", "Tecnología", "MVPs"],
+    "linkedin_url": "https://www.linkedin.com/in/ezequiel-horowitz/",
+    "photo_url": "/mentor-photos/35.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 35,
+    "name": "Ignacio Bellocq",
+    "role_company": "Co-fundador VVS Videos",
+    "bio": "Economista (UBA). Co-fundé VVS Videos en 2022, agencia de edición de videos y estrategia para empresas 100% especializada en YouTube. Clientes en más de 25 países.",
+    "specialty_tags": ["Ventas B2B", "Estrategia de negocio", "No-code", "YouTube", "Marketing Digital"],
+    "linkedin_url": "https://www.linkedin.com/in/ignaciobellocq/",
+    "photo_url": "/mentor-photos/36.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 36,
+    "name": "Julieta Caminetsky",
+    "role_company": "Economista / Educación financiera",
+    "bio": "Economista agraria, docente, especialista en innovación educativa y educación financiera. Tengo una startup de educación financiera a través de juegos para adolescentes y adultos.",
+    "specialty_tags": ["Finanzas", "Finanzas del negocio", "Diseño de capacitaciones", "Conexiones en el mundo startup", "Excel"],
+    "linkedin_url": "https://www.linkedin.com/in/jcaminet",
+    "photo_url": "/mentor-photos/37.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 37,
+    "name": "Federico Bezenzette",
+    "role_company": "Fundador Soleado Films",
+    "bio": "Director de cine y series cortas. Fundé Soleado Films, productora de contenido para empresas desde el guión hasta la entrega final, con lenguaje cinematográfico y enfoque corporativo.",
+    "specialty_tags": ["Storytelling", "Comunicación audiovisual", "Fotografía", "Liderazgo", "Gestión de equipos"],
+    "linkedin_url": "https://www.linkedin.com/in/fedebezenzette/",
+    "photo_url": "/mentor-photos/38.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 38,
+    "name": "Matías Smith",
+    "role_company": "CEO Ache Innovation",
+    "bio": "CEO y Co-Fundador de Ache Innovation, startup de rehabilitación y movilidad animal. Co-Fundador de Ninja Consulting. Experiencia en triple impacto, robótica, web3, e-commerce y gastronomía.",
+    "specialty_tags": ["Estrategia", "Modelos de negocio", "Gestión de equipos", "Triple impacto", "Startups"],
+    "linkedin_url": "https://www.linkedin.com/in/matias-smith-/",
+    "photo_url": "/mentor-photos/39.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 39,
+    "name": "Natalia Byrne",
+    "role_company": "Directora de Arte / Socia RÚSTICO CHOCOLATE",
+    "bio": "Licenciada en Administración de Empresas y Directora de Arte con más de 20 años en cine y publicidad. Socia de RÚSTICO CHOCOLATE, chocolatería boutique. Combina gestión creativa con espíritu emprendedor.",
+    "specialty_tags": ["Propuesta de Valor", "Branding", "Gastronomía", "Organización de eventos", "Imagen de marca"],
+    "linkedin_url": "",
+    "photo_url": "/mentor-photos/40.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 40,
+    "name": "Luciano Leguiza",
+    "role_company": "Co-fundador Indigo 3Design",
+    "bio": "Ingeniero Industrial (UBA) y cofundador de Indigo 3Design, emprendimiento de impresión 3D. Trabajo con empresas para crear soluciones creativas y estudio IA y análisis de datos para optimizar procesos.",
+    "specialty_tags": ["Prototipado rápido", "Análisis de datos", "AI / Automatización", "Procesos", "Innovación", "Desarrollo de Productos"],
+    "linkedin_url": "https://www.linkedin.com/in/luciano-leguiza/",
+    "photo_url": "/mentor-photos/41.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 41,
+    "name": "Maru Aran",
+    "role_company": "Consultora ciencia de datos / AI",
+    "bio": "Tengo una consultora de ciencia de datos (AI, machine learning, análisis de datos) para proyectos con impacto. Trabajamos con datos en medio ambiente, salud, transparencia institucional y ONGs.",
+    "specialty_tags": ["AI / Automatización", "Análisis de datos", "Triple impacto", "Machine learning"],
+    "linkedin_url": "https://www.linkedin.com/in/maru-aran",
+    "photo_url": "/mentor-photos/42.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 42,
+    "name": "Lucía Osinalde",
+    "role_company": "Ingeniera en alimentos",
+    "bio": "Ingeniera en alimentos. Después de varios años en multinacionales ayudo a PyMEs de la industria alimenticia en sistemas de Calidad, Inocuidad, marco regulatorio, certificaciones y desarrollo de producto.",
+    "specialty_tags": ["Gestión de calidad", "Procesos industriales", "Desarrollo de alimentos", "Triple impacto", "Industria alimentaria"],
+    "linkedin_url": "https://www.linkedin.com/in/lucia-osinalde",
+    "photo_url": "/mentor-photos/43.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 43,
+    "name": "Ramiro Alonso",
+    "role_company": "Martillero / Corredor público",
+    "bio": "Martillero y corredor público dedicado al corretaje inmobiliario con más de una década de experiencia. Actualmente tengo una inmobiliaria con 3 socios en zona norte.",
+    "specialty_tags": ["Ventas B2C", "Manejo de clientes", "Conseguir inversión", "Inmobiliario", "Socios"],
+    "linkedin_url": "https://www.linkedin.com/in/ramiro-alonso-328434284/",
+    "photo_url": "/mentor-photos/44.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 44,
+    "name": "Lucas de Almeida",
+    "role_company": "Co-fundador Yappla.com / Anfy.app",
+    "bio": "Contador Público devenido en Emprendedor Tech. Co-fundé Yappla.com (SaaS para balnearios) y Anfy.app (software para hoteles y alojamientos). Especialista en modelos de negocio digitales.",
+    "specialty_tags": ["Modelos de negocio digital", "SaaS", "E-commerce", "Marketplaces", "Go-to-Market", "Pivotar ideas"],
+    "linkedin_url": "https://www.linkedin.com/in/dealmeidalucas/",
+    "photo_url": "/mentor-photos/45.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 45,
+    "name": "Nacho Morales",
+    "role_company": "Lider vertical AI / nmr.ar",
+    "bio": "Programador y nerd de los negocios. Fundé un SaaS para obras sociales y actualmente lidero la vertical de AI en la empresa #1 de software para restaurantes en LATAM. Diseño soluciones de AI para equipos de ventas.",
+    "specialty_tags": ["Tecnología", "Desarrollo de Productos", "MVPs", "AI / Automatización", "WhatsApp bots", "Ventas B2B"],
+    "linkedin_url": "https://www.linkedin.com/in/ignacio-morales-15b612150",
+    "photo_url": "/mentor-photos/46.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 46,
+    "name": "Marco Scolnik",
+    "role_company": "Sommelier / Gastronomía",
+    "bio": "Más de 15 años en gastronomía. Sommelier especializado en restaurantes fine dining y hospitalidad.",
+    "specialty_tags": ["Gastronomía", "Experiencia del cliente", "Gestión de equipos", "Negociación", "Ventas B2C"],
+    "linkedin_url": "https://www.linkedin.com/in/marco-scolnik",
+    "photo_url": "/mentor-photos/47.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 47,
+    "name": "Faysal Noufouri",
+    "role_company": "Head of Growth & Marketing Nomadic",
+    "bio": "Estratega de marketing y ventas B2B. Ayudo a empresas de tecnología a diseñar y ejecutar planes go-to-market para generar nuevos clientes y posicionar su marca.",
+    "specialty_tags": ["Ventas B2B", "Marketing Digital", "Go-to-Market", "Socios", "Pacto societario"],
+    "linkedin_url": "https://www.linkedin.com/in/faysal-noufouri/",
+    "photo_url": "/mentor-photos/48.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 48,
+    "name": "Morris Beker",
+    "role_company": "Médico psiquiatra",
+    "bio": "Soy médico especialista en psiquiatría. Me dedico a entender a las personas, qué las motiva y qué las frena. Te ayudo a pensar tu estrategia, desarrollar procesos y armar tu propuesta de valor.",
+    "specialty_tags": ["Propuesta de Valor", "Branding", "Estrategia", "Mindset emprendedor"],
+    "linkedin_url": "https://www.linkedin.com/in/bmorrisbeker/",
+    "photo_url": "/mentor-photos/49.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 49,
+    "name": "Maite Elorga",
+    "role_company": "Consultora RRHH / Gastronomía",
+    "bio": "Consultora en Recursos Humanos especializada en gastronomía y empresas de alimentos y bebidas. Más de 11 años acompañando equipos en la necesidad de ordenar y profesionalizar la gestión.",
+    "specialty_tags": ["Gestión de equipos", "Recursos Humanos", "Cultura organizacional", "Procesos", "Gastronomía", "Liderazgo"],
+    "linkedin_url": "https://maiteelorga.ar/",
+    "photo_url": "/mentor-photos/50.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 50,
+    "name": "Fede Berdeal",
+    "role_company": "Co-fundador Food & Drinks",
+    "bio": "Co-fundé una empresa con +7 años en la industria de Food & Drinks y 3 marcas de consumo masivo (D2C/B2B). Actualmente explorando negocios en Sustentabilidad, Longevidad y Economía Plateada.",
+    "specialty_tags": ["Desarrollo 0 a 1", "Go-to-Market", "Productos físicos", "Costos", "Pricing", "Food & Drinks"],
+    "linkedin_url": "https://www.linkedin.com/in/fedeberdeal",
+    "photo_url": "/mentor-photos/51.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 51,
+    "name": "Bárbara Gómez",
+    "role_company": "Fundadora JET Negocios",
+    "bio": "Lic. en Comercialización. Fundé JET Negocios, consultora de negocios y marketing. Ayudamos a empresas a ordenar su negocio y escalar su facturación.",
+    "specialty_tags": ["Marketing", "Ventas B2C", "Análisis de mercado", "Publicidad", "Experiencia del cliente", "Estrategia comercial"],
+    "linkedin_url": "https://www.linkedin.com/in/barbaragomezn/",
+    "photo_url": "/mentor-photos/52.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 52,
+    "name": "Lucas Soriano",
+    "role_company": "Consultor marketing y negocios",
+    "bio": "Consultor en marketing y negocios. Ayudo a empresas a desarrollar su estrategia comercial, posicionamiento de marca y crecimiento mediante análisis de mercado, branding y planificación estratégica.",
+    "specialty_tags": ["Estrategia de negocio", "Marketing", "Branding", "Crecimiento", "Análisis de mercado"],
+    "linkedin_url": "https://www.linkedin.com/in/lucas-soriano-560a1b167",
+    "photo_url": "/mentor-photos/53.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 53,
+    "name": "Daniel Sarabia",
+    "role_company": "Fundador Chokitos",
+    "bio": "Socio fundador de Chokitos, marca de indumentaria mayorista y minorista con más de nueve años de trayectoria. Construimos todo desde cero: diseño, serigrafía, producción y venta.",
+    "specialty_tags": ["Productos físicos", "Costos", "Ventas mayoristas", "Ventas minoristas", "Procesos de producción"],
+    "linkedin_url": "",
+    "photo_url": "/mentor-photos/54.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 54,
+    "name": "Emiliano Aguerreberry",
+    "role_company": "Fundador MICRON Consultora",
+    "bio": "Biólogo y maestrando en Planificación de Políticas Públicas. Más de diez años en gestión ambiental y sistemas de tratamiento. Fundé MICRON Consultora, especializada en ingeniería ambiental.",
+    "specialty_tags": ["Servicios", "Procesos", "Estrategia", "Propuesta de valor", "Triple impacto"],
+    "linkedin_url": "https://www.linkedin.com/in/emilianoaguerreberry/",
+    "photo_url": "/mentor-photos/55.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 55,
+    "name": "Ezequías Toledo",
+    "role_company": "Fundador Eleven",
+    "bio": "Fundé Eleven hace 6 años, agencia de marketing digital con más de 35 clientes y un equipo de 8 personas. Especializado en e-commerce y estrategias de venta.",
+    "specialty_tags": ["Meta Ads", "Marketing Digital", "Análisis de métricas", "E-commerce", "Estrategia de ventas"],
+    "linkedin_url": "",
+    "photo_url": "/mentor-photos/56.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 56,
+    "name": "Facundo Rosas",
+    "role_company": "Emprendedor Pet Food",
+    "bio": "Emprendedor con más de 18 años en el rubro de las mascotas, especialmente en Pet Food. Me enfoco en la experiencia de compra, relación con clientes, rentabilidad y procesos.",
+    "specialty_tags": ["Organización del negocio", "Experiencia de compra", "Precios y rentabilidad", "Estrategia de ventas", "Procesos"],
+    "linkedin_url": "https://ar.linkedin.com/in/facundorosas",
+    "photo_url": "/mentor-photos/57.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 57,
+    "name": "Francisco De Grandis",
+    "role_company": "Ingeniero informático / Fundador SaaS",
+    "bio": "Soy Ingeniero informático, el año pasado lancé mi SaaS para abogados, para ayudarlos a digitalizar su estudio.",
+    "specialty_tags": ["Tecnología", "Desarrollo de Software", "MVPs", "Captación de primeros clientes"],
+    "linkedin_url": "https://www.linkedin.com/in/francisco-de-grandis",
+    "photo_url": "/mentor-photos/58.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 58,
+    "name": "Guadalupe Varelli",
+    "role_company": "Fundadora Estrategia W",
+    "bio": "Periodista con experiencia en medios, banca, YPF y agencias. En 2022 fundé Estrategia W, consultora de marketing y comunicación estratégica para empresas en crecimiento.",
+    "specialty_tags": ["Estrategia de comunicación", "Branding", "Propuesta de valor", "Storytelling", "Marketing"],
+    "linkedin_url": "https://www.linkedin.com/in/guadalupe-varelli/",
+    "photo_url": "/mentor-photos/59.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 59,
+    "name": "Ignacio Motta",
+    "role_company": "Dueño Motta Design",
+    "bio": "Soy dueño de Motta Design, donde fabricamos respaldos de sommier y artículos de deco.",
+    "specialty_tags": ["De idea a negocio", "Propuesta de valor", "Productos físicos", "Escalado"],
+    "linkedin_url": "https://ar.linkedin.com/in/ignacio-motta",
+    "photo_url": "/mentor-photos/60.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 60,
+    "name": "Nicolas Feldfeber",
+    "role_company": "Fundador Monda",
+    "bio": "Fundador de Monda, ecommerce DTC de alimentos saludables. Me encargo del crecimiento (anuncios, email marketing, CRO) y mejora de procesos internos mediante automatizaciones e IA. Llevé la marca al ecommerce #1 de mi nicho en 12 meses.",
+    "specialty_tags": ["E-commerce", "Modelo de negocio", "CRO", "Email Marketing", "Finanzas", "AI / Automatización"],
+    "linkedin_url": "https://www.linkedin.com/in/nicolasfeldfeber/",
+    "photo_url": "/mentor-photos/61.png",
+    "max_capacity": 5
+  },
+  {
+    "id": 61,
+    "name": "Oriana Raffo",
+    "role_company": "Socia ORIENS ENERGÍA",
+    "bio": "Socia de ORIENS ENERGÍA, una de las primeras empresas de energía solar fotovoltaica en el país. Ofrecemos instalación llave en mano para residencias e industrias.",
+    "specialty_tags": ["Procesos", "Estrategia de mercado", "Ventas B2B", "Marketing", "Triple impacto"],
+    "linkedin_url": "https://www.linkedin.com/in/oriana-raffo-bb1246160/",
+    "photo_url": "/mentor-photos/62.png",
+    "max_capacity": 5
+  }
+]
